@@ -1,3 +1,4 @@
+#coding:utf-8
 import redis
 
 """缓存服务器"""

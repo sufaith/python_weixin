@@ -1,7 +1,7 @@
-from core.server.wxauthorize import WxSignatureHandler
-from core.server.page_handler import PageHandler
-from core.server.wx_handler import WxHandler
-
+#coding:utf-8
+from server.page_handler import PageHandler
+from server.wx_handler import WxHandler
+from server.wxauthorize import WxSignatureHandler
 
 '''web解析规则'''
 

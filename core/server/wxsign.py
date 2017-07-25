@@ -1,10 +1,13 @@
-import time
+#coding:utf-8
+import hashlib
 import random
 import string
-import hashlib
-from core.server.wxconfig import WxConfig
-from core.cache.tokencache import TokenCache
-from core.logger_helper import logger
+import time
+
+from cache.tokencache import TokenCache
+from server.wxconfig import WxConfig
+
+from logger_helper import logger
 
 
 class WxSign:
