@@ -1,0 +1,6 @@
+[2017-07-25 09:01:47]: runtime-log INFO 24 【获取微信全局唯一票据access_token】>>>执行定时器任务
+[2017-07-25 09:01:47]: runtime-log INFO 33 【获取微信全局唯一票据access_token】Response[200]
+[2017-07-25 09:07:09]: runtime-log INFO 24 【获取微信全局唯一票据access_token】>>>执行定时器任务
+[2017-07-25 09:07:12]: runtime-log INFO 33 【获取微信全局唯一票据access_token】Response[200]
+[2017-07-25 09:24:19]: runtime-log INFO 24 【获取微信全局唯一票据access_token】>>>执行定时器任务
+[2017-07-25 09:24:19]: runtime-log INFO 33 【获取微信全局唯一票据access_token】Response[200]

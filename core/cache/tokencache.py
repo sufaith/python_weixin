@@ -1,3 +1,4 @@
+#coding:utf-8
 from core.cache.basecache import BaseCache
 from core.logger_helper import logger
 

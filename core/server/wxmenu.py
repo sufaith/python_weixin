@@ -1,9 +1,12 @@
-import requests
+#coding:utf-8
 import json
-from core.server.wxconfig import WxConfig
-from core.cache.tokencache import TokenCache
-from core.logger_helper import logger
-from core.server.wxauthorize import WxAuthorServer
+
+import requests
+from cache.tokencache import TokenCache
+from server.wxauthorize import WxAuthorServer
+from server.wxconfig import WxConfig
+
+from logger_helper import logger
 
 
 class WxMenuServer(object):

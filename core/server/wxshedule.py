@@ -1,9 +1,10 @@
-from core.logger_helper import logger
+#coding:utf-8
+from logger_helper import logger
 import tornado.ioloop
 import requests
 import json
-from core.server.wxconfig import WxConfig
-from core.cache.tokencache import TokenCache
+from wxconfig import WxConfig
+from cache.tokencache import TokenCache
 
 
 class WxShedule(object):
@@ -16,6 +17,7 @@ class WxShedule(object):
     """
     _token_cache = TokenCache()  # 微信token缓存实例
     _expire_time_access_token = 7000 * 1000  # token过期时间
+
 
     def excute(self):
         """执行定时器任务"""

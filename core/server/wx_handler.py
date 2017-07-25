@@ -1,8 +1,9 @@
+#coding:utf-8
 import tornado.web
-from core.logger_helper import logger
-from core.server.wxauthorize import WxConfig
-from core.server.wxauthorize import WxAuthorServer
-from core.cache.tokencache import TokenCache
+from logger_helper import logger
+from wxshedule import WxConfig
+from wxauthorize import WxAuthorServer
+from cache.tokencache import TokenCache
 
 
 class WxHandler(tornado.web.RequestHandler):

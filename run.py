@@ -1,3 +1,4 @@
+#coding:utf-8
 import os
 import tornado.httpserver
 import tornado.ioloop
@@ -5,6 +6,7 @@ import tornado.web
 from tornado.options import define, options
 from core.url import urlpatterns
 from core.server.wxshedule import WxShedule
+
 
 define('port', default=8000, help='run on the given port', type=int)
 
